@@ -59,3 +59,7 @@ After editing `datapackage.json` you can publish it with `dpm` and see the graph
 
 * "views" is an array of objects so you can have multiple views to render multiple graphs
 * "resources" attribute in "views" is an array of indexes or names of resources to be used for this views. By default it references to 0th resource.
+* "spec" syntax in this tutorial is called Simple Graph Spec - so we define "specType" as "simple".
+* in Simple Graph Spec we should specify graph "type" - it can be "line", "bar", "pie" and "stacked bar" (?).
+* "group" attribute indicates by which field data should be grouped. In other words, it is a base for other field(s) that will be rendered in the graph.
+* "series" attribute is the field(s) to be rendered.
